@@ -1,0 +1,262 @@
+.home {
+    width: 100%;
+}
+
+.home_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home_content {
+    width: 100%;
+    height: 601px;
+}
+
+.home_content_inner {
+    position: absolute;
+    top: 46%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.home_title {
+    font-size: 48px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.home_breadcrumbs {
+    margin-top: -6px;
+}
+
+
+.home_breadcrumb {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+
+.home_breadcrumb a {
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.home_breadcrumb a:hover {
+    color: #fe3c52;
+}
+
+.home_breadcrumb:not(:last-child)::after {
+    content: '/';
+    margin-left: 5px;
+}
+
+
+.contact {
+    padding-top: 107px;
+    padding-bottom: 120px;
+}
+
+.contact_title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #131a2f;
+}
+
+.contact_subtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7d8293;
+    margin-top: 10px;
+}
+
+.contact_content {
+    margin-top: 74px;
+}
+
+.contact_text p:last-of-type {
+    margin-bottom: 0px;
+}
+
+.contact_info {
+    margin-top: 75px;
+}
+
+.contact_info_box {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    background: #fe3c52;
+    font-style: italic;
+}
+
+.contact_info_container {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -4px;
+    padding-left: 23px;
+    max-width: 310px;
+}
+
+.contact_info_content ul li {
+    font-size: 14px;
+    color: #131a2f;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.contact_info_social {
+    margin-top: 46px;
+    margin-left: -10px;
+}
+
+.contact_info_social ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.contact_info_social ul li a i {
+    color: #7d8293;
+    padding: 10px;
+    font-size: 17px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.contact_info_social ul li a i:hover {
+    color: #fe3c52;
+}
+
+/*********************************
+7.1 Contact Form
+*********************************/
+
+.contact_form_container {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.contact_input {
+    width: 100%;
+    height: 41px;
+    border: solid 2px #dbdbdb;
+    padding-left: 20px;
+    margin-bottom: 19px;
+    outline: none;
+}
+
+.contact_input::-webkit-input-placeholder,
+.contact_input_message::-webkit-input-placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+    color: #7d8293 !important;
+}
+
+.contact_input:-moz-placeholder,
+.contact_input_message:-moz-placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+    color: #7d8293 !important;
+}
+
+.contact_input::-moz-placeholder,
+.contact_input_message::-moz-placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+    color: #7d8293 !important;
+}
+
+.contact_input:-ms-input-placeholder,
+.contact_input_message:-ms-input-placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+    color: #7d8293 !important;
+}
+
+.contact_input::input-placeholder,
+.contact_input_message::input-placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    font-style: italic;
+    color: #7d8293 !important;
+}
+
+.contact_input_message {
+    width: 100%;
+    height: 223px;
+    border: solid 2px #dbdbdb;
+    outline: none;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+.contact_send_btn {
+    width: 161px;
+    height: 56px;
+    background: rgba(254, 60, 82, 1);
+    border: none;
+    outline: none;
+    float: right;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.contact_send_btn i{
+    margin-left: 5px;
+}
+
+.contact_send_btn:hover {
+    background: rgba(254, 60, 82, 0.8);
+}
+
+/*********************************
+7.2 Contact Map
+*********************************/
+
+.contact_map {
+    margin-top: 86px;
+}
+
+#google_map {
+    width: 100%;
+    height: 532px;
+}
+
+.map_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: calc(100% + 30px);
+}
